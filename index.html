@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Arthur</p>
+        <h1>Jogo profissionalmente jogos de computador</h1>
+        <p>Desde muito novo sempre joguei de tudo, depois de alguns anos entrei na area competitiva dos jogos!Veja os jogos em que eu atuo:</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/valorant.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Valorant</h5>
+                        <p class="card-text">valorant é um jogo competitivo de 5x5 onde o objetivo de um time é
+                            entrar em um bombsite e plantar um dispositivo chamado spike, esse dispositivo rouba radianita, um minerio raro
+                            enquanto o outro time deve impedir a entrada do bombsite e desarmar o dispositivo se ele for plantado
+                            ganha quem fizer 13 rounds primeiro(se empate sera uma melhor de 3 até 2 vitorias seguidas de qualquer lado)
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">entre você tambem!!
+                            </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/fortnite.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Fortnite</h5>
+                        <p class="card-text">fortnite é um jogo do estilo battle royale, o que significa?
+                            serão 100 jogadores para um vencedor, qualquer um pode fazer parte do mundo competitivo do jogo
+                            visando que existem campeonatos para todos os niveis de jogadores.</p>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Jogue tambem</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/twitch.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">fora do cenario competitivo
+                        </h5>
+                        <p class="card-text">Para os que querem ganhar a vida mas sem jogar o mesmo jogo sempre, temos a Twitch
+                            uma plataforma de streamming onde as pessoas jogam varios jogos ao vivo para seus spectadores
+                            la eles podem recebem subscrições e bits(dinheiro da plataforma), e no fim do mes a twitch te envia o dinheiro.
+                            você pode tambem tentar um contrato com a twitch e receber dinheiro da propira para fazer suas lives.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="Modal3">acesse agora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Para você se tornar um jogador profissonal de valorant existem dois jeitos, o primeiro deles
+                        e mais simpes é entrar pra alguma org ja existente no cenario competitivo, e jogar pelo seu nome
+                        a outra forma é criar um time e jogar os capeonatos disponiveis no jogo(é preciso ganhar uma sequencia grande demais para ser colocada aqui)
+                        </p>
+                    <p>Para virar um jogador profissional de fortnite basta você jogar os campeonatos disponiveis diariamente no jogo e treinar bastante
+                        o campeonato mais disputado pelos jogadores é a cash cup(ou em portugues:campeonato por grana) que occore de varias formas
+                        em versoes solo, duplas, trios e esquadroes.Dando assim chance de qualquer jogador conseguir dinheiro jogando,
+                        até mesmo crianças e adolescentes.</p>
+                    <p>A vida na internet é uma coisa que não é facil, você precisa ter um carisma, atrair publico
+                        manter esse publico e ter muita sorte.</p>
+                    <img src="img/twitch.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/Arthurzano">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Arthur Zanon</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
